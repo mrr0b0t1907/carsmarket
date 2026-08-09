@@ -23,19 +23,19 @@
   const BRANDS = ["Dacia", "Kia", "Renault", "Hyundai", "Volkswagen", "Peugeot", "Toyota", "Mercedes-Benz", "Fiat", "Citroën"];
 
   const CARS = [
-    { brand: "KIA", model: "Karnaval", year: 2022, dayRate: 38, fuel: "Diesel", trans: "Automatic", seats: 11, city: "madina", available: true,
+    { brand: "KIA", model: "Karnaval", year: 2022, dayRate: 200, fuel: "Diesel", trans: "Automatic", seats: 11, city: "madina", available: true,
       description: "A dependable, spacious SUV — good for city driving and longer road trips alike.",
       photos: ["images/vid.mp4"] },
-    { brand: "KIA", model: "Sarento", year: 2023, dayRate: 29, fuel: "Diesel", trans: "Manual", seats: 7, city: "madina", available: true,
+    { brand: "KIA", model: "Sarento", year: 2023, dayRate: 160, fuel: "Diesel", trans: "Manual", seats: 7, city: "madina", available: true,
       description: "Compact and easy to park, with a bit of extra ground clearance for rougher roads.",
       photos: ["images/vid2.mp4"] },
-    { brand: "Kia", model: "Santa Fe", year: 2023, dayRate: 52, fuel: "Diesel", trans: "Automatic", seats: 7, city: "madinah", available: true,
+    { brand: "Hyundai", model: "Santa Fe", year: 2023, dayRate: 150, fuel: "Diesel", trans: "Automatic", seats: 7, city: "madinah", available: true,
       description: "A comfortable mid-size SUV with automatic transmission, ideal for families.",
       photos: ["images/vid3.mp4"] },
     { brand: "Hyundai", model: "Elantra", year: 2022, dayRate: 24, fuel: "inconnu", trans: "inconnu", seats: 5, city: "madinah", available: true,
       description: "Our smallest and most affordable option — great for solo trips around town.",
       photos: ["images/hyundai1.jpg","images/hyundai2.jpg"] },
-    { brand: "Hyundai", model: "Avante", year: 2022, dayRate: 31, fuel: "inconnu", trans: "inconnu", seats: 5, city: "madinah", available: true,
+    { brand: "Hyundai", model: "Avante", year: 2022, dayRate: 130, fuel: "inconnu", trans: "inconnu", seats: 5, city: "madinah", available: true,
       description: "A reliable hatchback with low fuel consumption, well suited to daily errands.",
       photos: ["images/hyundai3.jpg"] },
     { brand: "Renault", model: "Megane", year: 2021, dayRate: 36, fuel: "Diesel", trans: "Manual", seats: 5, city: "Casablanca", available: true,
@@ -200,7 +200,7 @@
         </div>
         <div class="card-body">
           <div class="card-title"><h3>${escapeHTML(c.brand)} ${escapeHTML(c.model)}</h3></div>
-          <div class="price mono">$${c.dayRate} <span>/ day</span></div>
+          <div class="price mono">SAR ${c.dayRate} <span>/ day</span></div>
           <div class="specs">
             <span>${escapeHTML(c.fuel)}</span>
             <span>${escapeHTML(c.trans)}</span>
