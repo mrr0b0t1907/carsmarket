@@ -5,20 +5,14 @@
      PLACEHOLDER CONTACT DETAILS — replace with your real ones.
      WHATSAPP_NUMBER: digits only (country code + number, no +/spaces).
      ================================================================= */
-  const WHATSAPP_NUMBER = "966546720452";
-  const PHONE_DISPLAY = "+966 54 672 0452";
+  const WHATSAPP_NUMBER = "212615965169";
+  const PHONE_DISPLAY = "+212 615965169";
   const EMAIL_ADDRESS = "noemail@gmail.com";
   /* ================================================================= */
 
   /* =================================================================
-     YOUR CAR PHOTOS
-     Put your photo files in the /images folder next to index.html.
-     Each car has a "photos" array — the FIRST path is the one shown
-     on the card, and clicking the card opens all of them in a gallery.
-     Add as many paths per car as you have photos for, e.g.:
-       photos: ["images/dacia-duster-1.jpg", "images/dacia-duster-2.jpg"]
-     Leave the array empty ( [] ) for a car you have no photos for yet
-     — it will show a plain placeholder instead of a broken image.
+      CAR PHOTOS
+    
      ================================================================= */
   const BRANDS = ["Dacia", "Kia", "Renault", "Hyundai", "Volkswagen", "Peugeot", "Toyota", "Mercedes-Benz", "Fiat", "Citroën"];
 
